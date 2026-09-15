@@ -1,0 +1,26 @@
+
+===== RUN START: 2026-09-15T05:15:10 =====
+[2026-09-15T05:15:10] [INFO] Trigger received. Reading input file: requests.csv
+[2026-09-15T05:15:10] [INFO] Read 10 raw records.
+[2026-09-15T05:15:10] [INFO] Cleaning complete (whitespace stripped, casing normalised).
+[2026-09-15T05:15:10] [INFO] Validation complete: 9 valid, 1 invalid.
+[2026-09-15T05:15:10] [WARNING] Rejected REQ-1008: ['Missing mandatory field: message']
+[2026-09-15T05:15:10] [INFO] Priority classification complete.
+[2026-09-15T05:15:10] [INFO] Processed data written to processed_valid.csv and rejected_records.csv.
+[2026-09-15T05:15:10] [INFO] AI summary generated in DEMO mode.
+[2026-09-15T05:15:10] [WARNING] HUMAN REVIEW REQUIRED before this report is treated as final (DEMO-mode summary and/or High-priority items present).
+[2026-09-15T05:15:10] [INFO] Final report written to summary_report.csv.
+[2026-09-15T05:15:10] [INFO] Run complete.
+
+===== RUN START: 2026-09-15T11:20:06 =====
+[2026-09-15T11:20:06] [INFO] Trigger received. Reading input file: requests.csv
+[2026-09-15T11:20:06] [INFO] Read 10 raw records.
+[2026-09-15T11:20:06] [INFO] Cleaning complete (whitespace stripped, casing normalised).
+[2026-09-15T11:20:06] [INFO] Validation complete: 9 valid, 1 invalid.
+[2026-09-15T11:20:06] [WARNING] Rejected REQ-1008: ['Missing mandatory field: message']
+[2026-09-15T11:20:06] [INFO] Priority classification complete.
+[2026-09-15T11:20:06] [INFO] Processed data written to processed_valid.csv and rejected_records.csv.
+[2026-09-15T11:20:06] [INFO] AI summary generated in DEMO mode.
+[2026-09-15T11:20:06] [WARNING] HUMAN REVIEW REQUIRED before this report is treated as final (DEMO-mode summary and/or High-priority items present).
+[2026-09-15T11:20:06] [INFO] Final report written to summary_report.csv.
+[2026-09-15T11:20:06] [INFO] Run complete.

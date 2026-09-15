@@ -1,0 +1,19 @@
+{
+  "name": "AI Workflow Automation - Support Request Pipeline",
+  "trigger": {
+    "type": "scheduleTrigger",
+    "note": "Illustrative config: in practice this could be a Google Sheets / webhook trigger firing when a new batch of requests arrives"
+  },
+  "nodes": [
+    { "name": "Detect New File", "type": "localFileTrigger", "watchFolder": "data/input" },
+    { "name": "Run Python Pipeline", "type": "executeCommand", "command": "python src/main.py" },
+    { "name": "Check Human Review Flag", "type": "if", "condition": "log contains 'HUMAN REVIEW REQUIRED'" },
+    { "name": "Notify Reviewer", "type": "emailSend", "to": "reviewer@example.com" },
+    { "name": "Archive Report", "type": "moveFile", "target": "data/output/archive/" }
+  ],
+  "connections": {
+    "Detect New File": ["Run Python Pipeline"],
+    "Run Python Pipeline": ["Check Human Review Flag"],
+    "Check Human Review Flag": ["Notify Reviewer", "Archive Report"]
+  }
+}

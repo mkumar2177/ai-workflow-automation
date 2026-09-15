@@ -1,0 +1,2 @@
+request_id,customer_name,email,request_type,message,date_received,validation_errors
+REQ-1008,Ishita Rao,ishita.rao@example.com,Technical,,2026-08-07,['Missing mandatory field: message']

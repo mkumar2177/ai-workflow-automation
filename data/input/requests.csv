@@ -1,0 +1,11 @@
+request_id,customer_name,email,request_type,message,date_received
+REQ-1001,Aarav Sharma,aarav.sharma@example.com,Billing,My invoice for August shows a double charge please check,2026-08-04
+REQ-1002,Priya Mehta,priya.mehta@example.com,Technical,The dashboard is not loading after the latest update,2026-08-05
+REQ-1003,Rohan Gupta,rohan.gupta@example.com,General,Do you offer a discount for annual subscription plans,2026-08-05
+REQ-1004,,neha.k@example.com,Billing,I was charged in USD instead of INR this month,2026-08-06
+REQ-1005,Simran Kaur,simran.kaur@example.com,Technical,Export to Excel button is throwing an error,2026-08-06
+REQ-1006,Aarav Sharma,aarav.sharma@example.com,Billing,My invoice for August shows a double charge please check,2026-08-04
+REQ-1007,Karan Verma,karan.verma@example.com,General,Can I get a demo of the reporting module,2026-08-07
+REQ-1008,Ishita Rao,ishita.rao@example.com,Technical,,2026-08-07
+REQ-1009,Devansh Patel,devansh.patel@example.com,Billing,Refund not received even after 10 days as promised,2026-08-08
+REQ-1010,Ananya Singh,ananya.singh@example.com,General,What integrations are supported with Google Sheets,2026-08-08

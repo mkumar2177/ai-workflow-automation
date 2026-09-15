@@ -1,0 +1,25 @@
+request_id,customer_name,request_type,priority,date_received
+REQ-1001,Aarav Sharma,Billing,High,2026-08-04
+REQ-1002,Priya Mehta,Technical,High,2026-08-05
+REQ-1003,Rohan Gupta,General,Low,2026-08-05
+REQ-1004,Unknown Customer,Billing,Medium,2026-08-06
+REQ-1005,Simran Kaur,Technical,High,2026-08-06
+REQ-1006,Aarav Sharma,Billing,High,2026-08-04
+REQ-1007,Karan Verma,General,Low,2026-08-07
+REQ-1009,Devansh Patel,Billing,High,2026-08-08
+REQ-1010,Ananya Singh,General,Low,2026-08-08
+
+--- BATCH SUMMARY ---
+Total received,10
+Total valid,9
+Total invalid,1
+Type: Billing,4
+Type: Technical,2
+Type: General,3
+Priority: High,5
+Priority: Low,3
+Priority: Medium,1
+
+AI Summary,(DEMO)
+"[DEMO MODE: OPENAI_API_KEY not set — using offline fallback summary instead of a live API call.]
+Of 9 valid requests processed in this batch, 5 were flagged High priority and 4 were Billing-related. High-priority billing issues (refunds, duplicate charges) should be reviewed first, as these directly affect customer trust. The remaining requests are routine and can be handled in the normal queue."
