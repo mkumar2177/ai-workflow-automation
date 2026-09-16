@@ -1,9 +1,3 @@
-"""
-test_pipeline.py
-Small test script covering the main validation/classification scenarios.
-Run with: python tests/test_pipeline.py
-"""
-
 import sys
 from pathlib import Path
 

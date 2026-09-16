@@ -1,15 +1,3 @@
-"""
-ai_summary.py
-Generates a short, human-readable summary of the processed batch using
-the OpenAI API. Falls back to an offline DEMO mode (no API key /
-no internet) so the project can still be run and graded without
-exposing any credentials.
-
-The AI is only ever asked to DRAFT a summary. Nothing it produces is
-sent anywhere automatically — it is written to the report for a human
-reviewer to check, per the human-in-the-loop step in main.py.
-"""
-
 import os
 
 DEMO_MODE_NOTICE = (

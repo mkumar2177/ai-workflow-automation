@@ -1,15 +1,3 @@
-"""
-classifier.py
-A lightweight, rule-based priority classifier.
-
-This is intentionally NOT a trained ML model — for a prototype of this
-size, a small keyword-weighted rule set is more transparent and easier
-to justify than a black-box classifier trained on too little data.
-The scoring approach (keyword weights -> priority band) mirrors the
-logic a simple ML text-classification model would learn, and is
-described as such in the report.
-"""
-
 HIGH_PRIORITY_KEYWORDS = ["refund", "double charge", "not received", "error", "not loading"]
 MEDIUM_PRIORITY_KEYWORDS = ["charged", "throwing", "export"]
 

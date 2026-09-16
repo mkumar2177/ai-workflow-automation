@@ -1,9 +1,3 @@
-"""
-report_generator.py
-Builds summary statistics from the processed batch and writes the
-final CSV report used as the workflow's output.
-"""
-
 import csv
 from collections import Counter
 from pathlib import Path

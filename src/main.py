@@ -1,12 +1,3 @@
-"""
-main.py
-Orchestrates the full pipeline that, in the real deployment, is
-triggered by the n8n workflow (see n8n_workflow.json):
-
-    New file detected --> validate --> clean --> classify -->
-    AI summary --> human review checkpoint --> report --> log
-"""
-
 import sys
 from pathlib import Path
 

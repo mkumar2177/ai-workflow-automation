@@ -1,13 +1,3 @@
-"""
-validator.py
-Validates raw business records before they are processed further.
-
-Checks performed on every record:
-    1. Mandatory fields are present (customer_name, email, request_type, message)
-    2. Email has a basic valid format
-    3. request_id is not a duplicate of a record already seen in this batch
-"""
-
 import re
 
 MANDATORY_FIELDS = ["customer_name", "email", "request_type", "message"]

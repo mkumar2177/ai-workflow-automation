@@ -1,9 +1,3 @@
-"""
-logger.py
-Minimal structured execution logger — writes timestamped events to a
-log file so a failed or partial run can be traced later.
-"""
-
 import datetime
 from pathlib import Path
 
